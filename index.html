@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <script src="js/jqeury-3.4.1.js" type="text/javascript"></script>
+    <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/master.css">
@@ -20,9 +20,16 @@
         <input id="musicInput" type="text">
         <label for="plantInput">What's your favorite plant?</label>
         <input id="plantInput" type="text">
-      <form>
+        <label for="musicInput2">What's your second favorite type of music?<label>
+        <input id="musicInput2" type="text">
+        <button type="submit">Submit </button>
+
+      <div class="end">
+        Your favorite things are <span class="result"></span>. Your favorite things and second favorite music are <span class="result2"</span>.
+      </div>
 
 
+      </form>
     </div>
   </body>
 </html>
